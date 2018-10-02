@@ -13,7 +13,7 @@ def login(request):
 	else:
 		c = {}
 		c.update(csrf(request))
-		return render(request, 'loginmodule/login.html', c)
+		return render(request, 'sigin/login.html', c)
 
 def auth_view(request):
 	username = request.POST.get('username', '')
