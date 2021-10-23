@@ -10,9 +10,9 @@ header, main, footer {
 
 
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+  display: None;
+  min-height: 200vh;
+  flex-direction: row;
 }
 
 main {
